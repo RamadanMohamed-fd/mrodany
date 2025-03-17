@@ -114,6 +114,10 @@ button {
   padding: 8px;
   max-width: 1240px;
   margin: 0 auto;
+  
+}
+.slider-section{
+  height: 100vh;
 }
 .message {
   font-size: 14px;
@@ -122,6 +126,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
   gap: 10px;
   color: white;
   padding: 5px 10px;
@@ -129,6 +134,7 @@ button {
 .right-header {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 20px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -170,6 +176,7 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   gap: 30px;
 }
 
@@ -285,6 +292,7 @@ button {
   max-width: 1240px;
   margin: 0px auto;
   padding: 0px 0px 80px;
+   flex-wrap: wrap;
 }
 .container2 img {
   width: 250px;
@@ -314,6 +322,7 @@ button {
 .container3 {
   padding-top: 60px;
   padding-bottom: 80px;
+   flex-wrap: wrap;
 }
 .mission {
   max-width: 500px;
@@ -492,6 +501,7 @@ button {
   padding-top: 80px;
   display: flex;
   align-items: start;
+  flex-wrap: wrap;
   gap: 50px;
 }
 .footer1 h3,
@@ -546,6 +556,7 @@ button {
   flex: 1;
   display: flex;
   align-items: start;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   gap: 30px;
 }
