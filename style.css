@@ -883,24 +883,61 @@ margin:20px auto;
 .flexj{
   display: flex;
   align-items: start;
-  gap: 8px;
+  gap: 5px;
   margin-bottom: 10px;
-  line-height: 30px;
+  line-height: 28px;
+  padding-left: 20px;
 }
 .mains{
-  border-left: 1px solid #c80036;
-  max-width: 1000px;
+  border-left: 2px solid #c80036;
+  max-width: 1240px;
   margin: 50px auto;
+  /* padding-left: 20px; */
+}
+.flexj strong{
+  color: #c80036;
+  font-size: 18px;
+  font-weight: 500;
 }
 .polit{
-  margin-top: 6px;
-  margin-left: -6px;
-  border: 1px solid #c80036;
+  margin-top: -11px;
+  margin-left: -22px;
+  border-left: 2px solid #c80036;
+  border-bottom: 2px solid #c80036;
   background-color: white;
   font-weight: 500;
   font-size: 0px;
-  border-radius: 100%;
-  min-width: 10px;
-  height: 10px;
+  border-radius: 0px 0px 0px 18px;
+  min-width: 25px;
+  height: 25px;
+  /* box-shadow:0px 0px 2px 2px #c80036; */
+}
 
+.flexj .sup{
+  padding-left: 15px;
+  margin-left: 5px;
+  margin-top: 10px;
+  font-size: 15px;
+  line-height: 24px;
+  border-left: 1px solid #151529;
+}
+.flexj .sup p{
+ position: relative;
+ margin-bottom: 10px;
+}
+.flexj .sup p::after{
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: -20px;
+  min-width:8px;
+  height: 8px;
+  border: 1px solid #151529;
+  border-radius: 100%;
+  background:white;
+  box-shadow:0px 0px 1px 1px #151529;
+}
+
+.flexj .sup p:hover::after {
+  background-color: #151529;
 }
