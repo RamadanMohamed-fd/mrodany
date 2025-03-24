@@ -31,12 +31,15 @@ const swiper = new Swiper(".swiper-slider", {
 });
 
 const hamburger = document.querySelector(".hamburger");
+const hamburger2 = document.querySelector(".hamburger2");
 const navMenu = document.querySelector(".nav-menu");
 
 hamburger.addEventListener("click", mobileMenu);
+hamburger2.addEventListener("click", mobileMenu);
 
 function mobileMenu() {
   hamburger.classList.toggle("active");
+  hamburger2.classList.toggle("active");
   navMenu.classList.toggle("active");
 }
 
@@ -48,5 +51,6 @@ navLink.forEach((n) => n.addEventListener("click", closeMenu));
 
 function closeMenu() {
   hamburger.classList.remove("active");
+  hamburger2.classList.remove("active");
   navMenu.classList.remove("active");
 }
